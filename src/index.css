@@ -156,7 +156,8 @@ Slider
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
-  /* have to have a height */
+  /* have to have a height 
+     because you're using position absolute */
   height: 450px;
   max-width: 800px;
   text-align: center;
@@ -242,7 +243,7 @@ article {
   /* opacity: 0; */
   transition: var(--transition);
 }
-/* article.activeSlide {
+article.activeSlide {
   opacity: 1;
   transform: translateX(0);
 }
@@ -251,4 +252,4 @@ article.lastSlide {
 }
 article.nextSlide {
   transform: translateX(100%);
-} */
+}
